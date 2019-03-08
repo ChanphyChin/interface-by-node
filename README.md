@@ -4,7 +4,8 @@
 > 从未深入研究node，感觉做好一个接口已经足够满足一只前端jbdog对node浅层次的理解。  
 create by Chanphy on 2019.3.8 
 
-一、 demo环境：centos 7, mysql 5.7, node 8.10.0, node-forever, express
+一、 demo环境：centos 7, mysql 5.7, node 8.10.0, node-forever, express  
+
 二、 步骤：
 1. 构建服务器环境。
 2. 数据库建表
@@ -116,7 +117,8 @@ create by Chanphy on 2019.3.8
     app.use('/user_list', getTotal);  
 
     ...
-```  
+```    
+
 四、 最后使用forever开始进程守护
 ```
     $ forever start ./bin/www
